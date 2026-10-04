@@ -1,0 +1,75 @@
+<resources>
+    <!-- App Identity -->
+    <string name="app_name">CareConnect</string>
+    <string name="app_tagline">Blood Donor &amp; Hospital Bed Finder</string>
+
+    <!-- General Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_donors">Donors</string>
+    <string name="nav_hospitals">Hospitals</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to search blood donors and find hospital beds</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="city_hint">City / Location</string>
+    <string name="blood_group_hint">Blood Group</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Create Account</string>
+    <string name="btn_logout">Logout</string>
+    <string name="prompt_no_account">Don\'t have an account? Sign Up</string>
+    <string name="prompt_have_account">Already registered? Sign In</string>
+    <string name="register_title">Join CareConnect</string>
+    <string name="register_subtitle">Register as a life-saving donor or emergency seeker</string>
+
+    <!-- Home Dashboard -->
+    <string name="dashboard_greeting">Emergency Healthcare Portal</string>
+    <string name="dashboard_subtitle">Locate blood donors and hospital beds quickly</string>
+    <string name="shortcut_find_blood">Find Blood</string>
+    <string name="shortcut_find_hospital">Find Beds</string>
+    <string name="shortcut_register_donor">Be a Donor</string>
+    <string name="shortcut_green_it">Green IT</string>
+    <string name="section_quick_hospitals">Recent Hospital Updates</string>
+    <string name="section_emergency_notice">Important Safety Notice</string>
+
+    <!-- Blood Donor Module -->
+    <string name="donor_search_title">Search Blood Donors</string>
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="all_blood_groups">All Blood Groups</string>
+    <string name="donor_registration_title">Blood Donor Registration</string>
+    <string name="donor_status_available">Available to Donate</string>
+    <string name="donor_status_unavailable">Temporarily Unavailable</string>
+    <string name="btn_call_donor">Call Donor</string>
+    <string name="no_donors_found">No donors found matching your search.</string>
+
+    <!-- Hospital Module -->
+    <string name="hospital_directory_title">Hospital Bed Directory</string>
+    <string name="search_hospital_hint">Search hospital name or city…</string>
+    <string name="bed_general">General Beds</string>
+    <string name="bed_icu">ICU Beds</string>
+    <string name="bed_emergency">Emergency Beds</string>
+    <string name="hospital_disclaimer">Bed availability depends on the latest available hospital update. Please contact the hospital directly to confirm availability.</string>
+    <string name="btn_call_hospital">Call Emergency Desk</string>
+    <string name="last_updated_prefix">Last Updated: </string>
+    <string name="no_hospitals_found">No hospitals found matching your filter.</string>
+
+    <!-- User Profile & Eco Mode -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_donor_toggle">Register as Active Blood Donor</string>
+    <string name="profile_eco_toggle">Green IT / Eco Mode (Data Saver)</string>
+    <string name="profile_eco_desc">Minimizes network calls, prioritizes local Firestore cache, and saves device battery.</string>
+    <string name="green_it_title">Green IT &amp; Software Sustainability</string>
+    <string name="green_it_explanation">CareConnect follows green computing principles: zero continuous polling, on-demand query execution, aggressive offline caching, and lightweight UI to lower mobile battery drain and data usage.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="err_empty_field">This field cannot be empty</string>
+    <string name="err_invalid_email">Please enter a valid email address</string>
+    <string name="err_short_password">Password must be at least 6 characters</string>
+    <string name="err_invalid_phone">Please enter a valid 10-digit phone number</string>
+    <string name="err_no_internet">No internet connection. Using cached data.</string>
+    <string name="loading">Loading, please wait…</string>
+</resources>

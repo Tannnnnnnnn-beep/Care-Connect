@@ -1,0 +1,60 @@
+# ==========================================================
+# CareConnect Android Project - Root .gitignore
+# ==========================================================
+
+# Android Studio / IntelliJ local settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle / Kotlin caches and build output
+.gradle/
+.kotlin/
+build/
+app/build/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Android local configuration
+local.properties
+/local.properties
+
+# Generated APK and Android App Bundles
+*.apk
+*.aab
+
+# Android debug/release signing keys and certificates
+debug.keystore
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Firebase Admin SDK / service-account credentials
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Test and coverage artifacts
+coverage/
+*.ec
+*.exec
